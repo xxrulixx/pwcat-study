@@ -1,0 +1,46 @@
+{
+  "configVersion": 1,
+  "index": "https://xxrulixx.github.io/pwcat-study/PWCat/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://xxrulixx.github.io/pwcat-study/PWCat/favicon.ico",
+        "https://xxrulixx.github.io/pwcat-study/PWCat/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://xxrulixx.github.io/pwcat-study/PWCat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://xxrulixx.github.io/pwcat-study/PWCat/index.html": "804f83fc3256ad3ac332af530add90db69f44d06"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
