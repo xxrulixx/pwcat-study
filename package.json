@@ -1,0 +1,22 @@
+{
+  "name": "pwcat-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxrulixx/pwcat-study.git"
+  },
+  "author": "Raul Vallejo Valido <xxrulixx@gmail.com> (http://twitter.com/xxrulixx)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxrulixx/pwcat-study/issues"
+  },
+  "homepage": "https://github.com/xxrulixx/pwcat-study#readme",
+  "devDependencies": {
+    "@angular/cli": "^6.0.0"
+  }
+}
