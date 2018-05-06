@@ -9,6 +9,7 @@
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
+      
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -20,8 +21,10 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.json"
             ],
+            "serviceWorker": true,
             "styles": [
               "src/styles.css"
             ],
@@ -118,5 +121,6 @@
       }
     }
   },
+  
   "defaultProject": "PWCat"
 }
