@@ -14,7 +14,8 @@
           "/*.chunk.js"
         ]
       }
-    }, {
+    }, 
+    {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
@@ -26,5 +27,6 @@
           "https://cataas.com/**"
         ]
       }
-    }]
+    }
+  ]
   }
